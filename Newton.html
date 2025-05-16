@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="home.css">
+        <body>
+        <header>
+            <!--header section-->
+            <div class="header">
+              <div class="logoleft">
+                <img src="C:\Users\System1\Desktop\uproject\patil.jpg"alt="logoleft">
+              </div>
+              <div class="college name">
+                <h1>PATIL DEGREE COLLEGE FOR WOMEN</h1>
+              </div>
+              <div class="logoright">
+                <img src="C:\Users\System1\Desktop\uproject\nss1.jpg"alt="logoright">
+              </div>
+           </div>
+          </header>
+        <center><h1>2.Newton Raphson Method</h1></center>
+        1.Start with an initial guess: You begin with an initial estimate (x0) for the root of the function f(x) = 0.<br> 
+            <br>
+            2.Draw the tangent: At the point (x0, f(x0)), draw the tangent line to the curve of f(x).<br> 
+            <br>
+            3.Find the intersection: Determine the point (x1) where this tangent line intersects the x-axis.<br>
+            <br>
+            4.Iterate: The point x1 becomes the new estimate for the root, and you repeat the process by drawing a tangent at (x1, f(x1)) and finding the new intersection point (x2), and so on.<br> 
+            <br>
+            5.Continue until convergence: Repeat steps 2-4 until the successive approximations (xi) converge to a desired level of accuracy, meaning the difference between successive iterations becomes small.<br>
+            <br>
+            6.Newton-Raphson formula: The core of the method lies in the formula:<br>
+            Code<br>
+            <br>
+            
+               x_(n+1) = x_n - f(x_n) / f'(x_n)<br>
+            where: <br>
+            x_(n+1) is the next approximation of the root.<br>
+            x_n is the current approximation of the root.<br>
+            f(x_n) is the value of the function at x_n.<br>
+            f'(x_n) is the derivative of the function at x_n.<br>
+            In essence, the Newton-Raphson method approximates the root of a function by repeatedly drawing tangent lines and finding their x-intercepts, iteratively refining the approximation until it converges to a solution.<br>
+        
+        <div class="back">
+          <center>
+            <button onclick="window.location.href='bisection.html'">Back</button>
+            <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='false.html'">Next</button></center>
+           
+        </div>
+          <footer>
+            <div class="footer">
+              <p><h2>K.V.COMPOUND GANGAVTHI ROAD SINDHANUR-584128</h2></p>
+            </div>
+         </footer>
+        </body>
+    </head> 
+</html>
